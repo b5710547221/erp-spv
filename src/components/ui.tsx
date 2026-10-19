@@ -43,7 +43,7 @@ export function Badge({ s, tone }: { s: string; tone?: keyof typeof TONE }) {
 }
 
 export function Logo({ size = 'sm' }: { size?: 'sm' | 'lg' | 'full' }) {
-  const ratio = size === 'full' ? 1254 / 900 : 1254 / 700
+  const ratio = 1254 / 900
   return (
     <div className="overflow-hidden bg-black" style={{ aspectRatio: String(ratio) }}>
       <img src="/ptnex-brand.png" alt="P.T.NEX — People Trust Next" className="size-full object-cover object-top" style={size === 'sm' ? { objectPosition: '50% 0%' } : {}} />
