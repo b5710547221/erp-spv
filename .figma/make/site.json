@@ -1,0 +1,10 @@
+{
+  "description": "Streamline enterprise management with an interactive ERP platform for transport and workforce divisions, enhancing efficiency, oversight, and operational accuracy.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
